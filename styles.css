@@ -1,17 +1,21 @@
 /* USE CSS LAYOUTS HERE */
-
-.header {
-
+.flex{
+    
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
+     
 }
-
-.main {
-
+.flex1{
+    background-color: red;
+    flex: 5;
 }
-
-.footer-grid {
-
+.flex2{
+    background-color: seagreen;
+    flex: 3;
 }
-
-.footer-flex {
-
+.flex3{
+    background-color: sienna;
+    flex: 2;
 }

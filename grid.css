@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 1fr 8fr 1fr;
+    text-align: center;
+}
+
+.container1{
+    background-color: slateblue;
+}
+.container2{
+    background-color: red;
+}
+.container3{
+    background-color: salmon;
+}
